@@ -50,7 +50,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -60,7 +60,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.1.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.1.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -70,7 +70,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.2.4; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.2.4; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -80,7 +80,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.3.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.3.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -90,7 +90,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.4.2; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.4.2; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -100,7 +100,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.5.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.5.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -110,7 +110,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.6.2; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.6.2; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -120,7 +120,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.7.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.7.1; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
@@ -130,7 +130,7 @@
                 "git": "",
                 "lucid": "",
                 "as": "null",
-                "atclone": "git checkout --quiet zsh-5.8; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules install.runhelp >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
+                "atclone": "git checkout --quiet zsh-5.8; ./.preconfig; print -P %F{208}Building Zsh...%f; CPPFLAGS='-I/usr/include -I/usr/local/include' CFLAGS='-g -O2 -Wall' LDFLAGS='-L/usr/libs -L/usr/local/libs' ./configure --prefix=\"$ZPFX\" >/dev/null && make install.bin install.fns install.modules >/dev/null && sudo rm -f /bin/zsh && sudo cp -vf Src/zsh /bin/zsh && print -P %F{208}The build succeeded.%f || print -P %F{160}The build failed.%f",
                 "atpull": "%atclone",
                 "nocompile": "",
                 "countdown": ""
