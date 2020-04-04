@@ -42,12 +42,12 @@ The Zinit command that'll be run will be equivalent to:
 
 ```zsh
 zinit ice as"null" lucid atclone'./.preconfig; print -P %F{208}Building \
-        Zsh...%f; CPPFLAGS="-I/usr/include \ -I/usr/local/include" CFLAGS="-g \
-        -O2 -Wall" LDFLAGS="-L/usr/libs \ -L/usr/local/libs" ./configure \
-        --prefix="$ZPFX" >/dev/null && make \ install.bin install.fns \
-        install.modules >install.runhelp >/dev/null && sudo \ rm -f /bin/zsh && \
+        Zsh...%f; CPPFLAGS="-I/usr/include -I/usr/local/include" CFLAGS="-g \
+        -O2 -Wall" LDFLAGS="-L/usr/libs -L/usr/local/libs" ./configure \
+        --prefix="$ZPFX" >/dev/null && make install.bin install.fns \
+        install.modules >install.runhelp >/dev/null && sudo rm -f /bin/zsh && \
         sudo cp -vf Src/zsh >/bin/zsh && print -P >%F{208}The build \
-        \ succeeded.%f || print -P %F{160}The build failed.%f'
+        succeeded.%f || print -P %F{160}The build failed.%f'
     atpull"%atclone" nocompile countdown git for \
         zsh-users/zsh
 ```
