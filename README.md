@@ -50,7 +50,8 @@ zinit ice as"null" lucid atclone'./.preconfig; print -P %F{208}Building \
         \ succeeded.%f || print -P %F{160}The build failed.%f'
     atpull"%atclone" nocompile countdown git for \
         zsh-users/zsh
-``
+```
 
 It copies the zsh binary onto `/bin/zsh`.
+
 <!-- vim:set ft=markdown tw=80 fo+=an1 autoindent: -->
