@@ -31,7 +31,7 @@ zinit pack"5.4.2" for zsh
 zinit pack"5.3.1" for zsh
 zinit pack"5.2.4" for zsh
 zinit pack"5.1.1" for zsh
-zinit pack"5.8.0
+zinit pack"5.8" for zsh
 ```
 
 ## Default Profile
