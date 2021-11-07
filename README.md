@@ -54,4 +54,16 @@ zinit ice as"null" lucid atclone'./.preconfig; print -P %F{208}Building \
 
 It copies the zsh binary onto `/bin/zsh`.
 
+## What are the `-tcsetpgrp` profiles for?
+
+These are meant to be used in CI, for building ZSH without a TTY which is
+normally used to determine dynamically if
+[setpgrp](https://linux.die.net/man/2/setpgrp) is available. The `-tcsetpgrp`
+profiles explicitly set `--with-tcsetpgrp` in the `./configure` call.
+
+More info:
+
+- https://github.com/zsh-users/zsh/blob/631576de0f7b4e52487175e3e017e5136424b626/INSTALL#L579-L584
+- https://github.com/zsh-users/zsh/commit/2173c12f2dcf10634070b5f50d4e2a42560e9d24
+
 <!-- vim:set ft=markdown tw=80 fo+=an1 autoindent: -->
