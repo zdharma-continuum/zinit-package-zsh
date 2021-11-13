@@ -24,7 +24,7 @@
             "user": "zsh-users",
             "plugin": "zsh"
         },
-        "zplugin-ices": {
+        "zinit-ices": {
             "default": {
                 "requires": "cc;make;cp;rm",
                 "git": "",
